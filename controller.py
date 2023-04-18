@@ -9,3 +9,5 @@ def events ():
         if s.type == pygame.KEYDOWN:
             if s.key == pygame.K_SPACE:
                 model.spaace()
+            if s.key == pygame.K_ESCAPE:
+                model.smena_sceni()
